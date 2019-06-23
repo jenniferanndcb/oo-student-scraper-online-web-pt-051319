@@ -42,6 +42,5 @@ class Student
   end	  
   
 
-  
 end
 
