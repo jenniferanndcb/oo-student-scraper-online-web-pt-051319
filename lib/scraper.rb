@@ -53,7 +53,7 @@ class Scraper
 
      }
 
-     profile_quote = doc.css('div.profile-quote').text
+    profile_quote = doc.css('div.profile-quote').text
     bio = doc.css('div.bio-content .description-holder p').text
 
      profile = {
@@ -64,8 +64,8 @@ class Scraper
       :profile_quote => profile_quote,
       :bio => bio
     }.reject{|k,v| v.nil?}
-  end	  end
-  end
+  end	  
+ 
 
 end
 
