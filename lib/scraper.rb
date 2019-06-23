@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'pry'
+require 'nokogiri'
 
 html = open("URL - put in site")
 
